@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <table id="gameBoard" class="custom-board"></table>
+        <button onclick="resetGame()">Reiniciar</button>
+        <div id="victoryMessage" class="victory"></div>
+    
+    <script src="script.js"></script>
+
+    <div class="btnvertical">
+        <input type="button" onclick="invertColumn(0)" value="1">
+        <input type="button" onclick="invertColumn(1)" value="2">
+        <input type="button" onclick="invertColumn(2)" value="3">
+    </div>
+    <div class="btnhorizontal">
+        <input type="button" onclick="invertRow(0)" value="1">
+        <input type="button" onclick="invertRow(1)" value="2">
+        <input type="button" onclick="invertRow(2)" value="3">
+    </div>
+</div>
+<div id="container">
+    <button id="randomButton">Dicas úteis</button>
+    <div id="messageArea"></div>
+</div>
+</body>
+</html>
